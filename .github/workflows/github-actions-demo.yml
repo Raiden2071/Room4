@@ -4,10 +4,10 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
   push:
     branches:
-     - main, develop
+     - master, develop
   pull_request:
     branches:
-      - main, develop
+      - master, develop
 
 env:
   NODE_VERSION: 12.11.0
