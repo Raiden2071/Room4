@@ -1,17 +1,17 @@
 name: Angular CI/CD
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: 
+on:
   push:
     branches:
-     - master
-     - develop
+      - master
+      - develop
   pull_request:
     branches:
       - master, develop
 
 env:
-  NODE_VERSION: 12.11.0
+  NODE_VERSION: 20.18.0
 
 jobs:
   build:
